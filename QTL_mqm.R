@@ -26,7 +26,7 @@
 ###############################################################################
 
 ### Housekeeping: set working directory and load required packages
-setwd("/users/limengxie/Desktop/JASHS_mqm/")
+setwd("./")
 # install.packages("qtl")  # uncomment if needed
 
 library(qtl)
@@ -41,8 +41,8 @@ library(snow)
 # genetic position.
 ###############################################################################
 cross <- read.cross("csv", 
-                    "/users/limengxie/Desktop/JASHS_mqm/", 
-                    "Mapping181_11.csv",
+                    "./", 
+                    "Mapping.csv",
                     estimate.map = FALSE)
 cross <- jittermap(cross)
 
