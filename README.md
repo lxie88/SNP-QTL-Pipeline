@@ -1,7 +1,4 @@
-Below is a sample **README.md** that guides users through your QTL analysis workflow and clarifies the purpose of each script step. It also suggests places to embed images for improved clarity. Feel free to adapt it to your specific context, folder structure, or naming conventions.
-
 ---
-
 # README
 
 ## Overview
