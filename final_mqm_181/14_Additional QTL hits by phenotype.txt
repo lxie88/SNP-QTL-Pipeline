@@ -1,0 +1,12 @@
+SL
+               chr  pos ci.low ci.high  lod   pval
+chr03_64136163   3 90.1   87.6    93.7 4.13 0.0179
+ 
+SL
+               chr  pos ci.low ci.high  lod   pval
+chr03_64136163   3 90.1   87.6    93.7 4.13 0.0327
+ 
+SL
+               chr  pos ci.low ci.high  lod   pval
+chr03_64136163   3 90.1   87.6    93.7 4.13 0.0188
+ 

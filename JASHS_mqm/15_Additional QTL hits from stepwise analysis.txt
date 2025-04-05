@@ -1,0 +1,192 @@
+SL
+  QTL object containing genotype probabilities. 
+
+      name chr    pos n.gen
+Q1  6@19.0   6 18.997     3
+Q2 11@30.7  11 30.714     3
+
+  Formula: y ~ Q1 + Q2 
+
+  pLOD:  3.823 
+ 
+SFW
+  QTL object containing genotype probabilities. 
+
+    name chr   pos n.gen
+Q1 4@6.8   4 6.795     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  0.924 
+ 
+SPAD
+  QTL object containing genotype probabilities. 
+
+      name chr     pos n.gen
+Q1  1@22.4   1  22.364     3
+Q2 1@121.3   1 121.268     3
+Q3  2@72.6   2  72.596     3
+Q4  8@73.0   8  72.960     3
+Q5  9@88.1   9  88.098     3
+
+  Formula: y ~ Q1 + Q2 + Q3 + Q4 + Q5 
+
+  pLOD:  8.25 
+ 
+RFW
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@18.0   1 18.023     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  1.209 
+ 
+RDW
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@18.0   1 18.023     3
+Q2 4@31.7   4 31.658     3
+
+  Formula: y ~ Q1 + Q2 
+
+  pLOD:  1.571 
+ 
+RSR
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@22.4   1 22.364     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  3.989 
+ 
+RSA
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 4@31.7   4 31.658     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  0.417 
+ 
+RV
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 4@31.7   4 31.658     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  1.044 
+ 
+SRL
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@95.7   1 95.666     3
+Q2 8@92.0   8 92.034     3
+
+  Formula: y ~ Q1 + Q2 
+
+  pLOD:  0.321 
+ 
+SL
+  QTL object containing genotype probabilities. 
+
+      name chr    pos n.gen
+Q1  6@19.0   6 18.997     3
+Q2 11@30.7  11 30.714     3
+
+  Formula: y ~ Q1 + Q2 
+
+  pLOD:  3.843 
+ 
+SFW
+  QTL object containing genotype probabilities. 
+
+    name chr   pos n.gen
+Q1 4@6.8   4 6.795     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  0.995 
+ 
+SPAD
+  QTL object containing genotype probabilities. 
+
+      name chr     pos n.gen
+Q1  1@22.4   1  22.364     3
+Q2 1@121.3   1 121.268     3
+Q3  2@72.6   2  72.596     3
+Q4  8@73.0   8  72.960     3
+
+  Formula: y ~ Q1 + Q2 + Q3 + Q4 
+
+  pLOD:  7.763 
+ 
+RFW
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@18.0   1 18.023     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  1.158 
+ 
+RDW
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@18.0   1 18.023     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  1.425 
+ 
+RSR
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@22.4   1 22.364     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  3.9 
+ 
+RSA
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 4@31.7   4 31.658     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  0.363 
+ 
+RV
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 4@31.7   4 31.658     3
+
+  Formula: y ~ Q1 
+
+  pLOD:  0.825 
+ 
+SRL
+  QTL object containing genotype probabilities. 
+
+     name chr    pos n.gen
+Q1 1@95.7   1 95.666     3
+Q2 8@92.0   8 92.034     3
+
+  Formula: y ~ Q1 + Q2 
+
+  pLOD:  0.281 
+ 

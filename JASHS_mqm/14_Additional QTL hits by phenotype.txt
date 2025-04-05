@@ -1,0 +1,58 @@
+SL
+               chr  pos ci.low ci.high  lod  pval
+chr03_64136163   3 90.1   87.6    93.7 4.13 0.023
+ 
+SFW
+    There were no LOD peaks above the threshold.
+ 
+SPAD
+               chr pos ci.low ci.high  lod  pval
+chr01_96115081   1 121    119     129 5.85 0.001
+ 
+RFW
+    There were no LOD peaks above the threshold.
+ 
+RDW
+    There were no LOD peaks above the threshold.
+ 
+RSR
+    There were no LOD peaks above the threshold.
+ 
+RSA
+    There were no LOD peaks above the threshold.
+ 
+RV
+    There were no LOD peaks above the threshold.
+ 
+SRL
+    There were no LOD peaks above the threshold.
+ 
+SL
+               chr  pos ci.low ci.high  lod  pval
+chr03_64136163   3 90.1   87.6    93.7 4.13 0.019
+ 
+SFW
+    There were no LOD peaks above the threshold.
+ 
+SPAD
+               chr pos ci.low ci.high  lod  pval
+chr01_96115081   1 121    119     129 5.85 0.001
+ 
+RFW
+    There were no LOD peaks above the threshold.
+ 
+RDW
+    There were no LOD peaks above the threshold.
+ 
+RSR
+    There were no LOD peaks above the threshold.
+ 
+RSA
+    There were no LOD peaks above the threshold.
+ 
+RV
+    There were no LOD peaks above the threshold.
+ 
+SRL
+    There were no LOD peaks above the threshold.
+ 

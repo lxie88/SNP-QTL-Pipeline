@@ -1,0 +1,542 @@
+SL
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 180 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 + Q2 
+
+       df       SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   4 1063.250 265.81251 11.10716 24.73604 2.076408e-10 3.600166e-10
+Error 175 3235.134  18.48648                                            
+Total 179 4298.384                                                      
+
+
+Drop one QTL at a time ANOVA table: 
+----------------------------------  
+        df Type III SS   LOD   %var F value Pvalue(Chi2) Pvalue(F)    
+6@19.0   2       320.2 3.689  7.449    8.66            0  0.000259 ***
+11@30.7  2       618.4 6.837 14.388   16.73            0  2.25e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept 17.5898  0.4077 43.141
+6@19.0a    1.8719  0.4553  4.111
+6@19.0d   -0.1613  0.6481 -0.249
+11@30.7a   0.3241  0.6861  0.472
+11@30.7d   3.5647  0.8330  4.279
+
+SFW
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 179 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2  241.2796 120.63980 4.712377 11.41754 1.939204e-05 2.325958e-05
+Error 176 1871.9571  10.63612                                            
+Total 178 2113.2368                                                      
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept  9.8019  0.2443 40.121
+4@6.8a    -1.6082  0.3377 -4.763
+4@6.8d     0.1215  0.4908  0.248
+
+SPAD
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 181 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 + Q2 + Q3 + Q4 + Q5 
+
+       df       SS        MS      LOD     %var Pvalue(Chi2) Pvalue(F)
+Model  10 1808.418 180.84178 26.57842 49.14709            0         0
+Error 170 1871.185  11.00697                                         
+Total 180 3679.603                                                   
+
+
+Drop one QTL at a time ANOVA table: 
+----------------------------------  
+        df Type III SS    LOD   %var F value Pvalue(Chi2) Pvalue(F)    
+1@22.4   2       781.9 13.723 21.250  35.519            0  1.29e-13 ***
+1@121.3  2       314.3  6.102  8.542  14.277            0  1.86e-06 ***
+2@72.6   2       276.0  5.407  7.500  12.535            0  8.35e-06 ***
+8@73.0   2       270.4  5.305  7.348  12.283            0  1.04e-05 ***
+9@88.1   2       183.4  3.675  4.985   8.332            0  0.000353 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Estimated effects:
+-----------------
+               est       SE       t
+Intercept 29.14919  0.26850 108.562
+1@22.4a   -2.50715  0.36228  -6.921
+1@22.4d    2.04210  0.53703   3.803
+1@121.3a  -1.95989  0.36701  -5.340
+1@121.3d   0.06326  0.50768   0.125
+2@72.6a   -1.88651  0.39413  -4.787
+2@72.6d   -0.07754  0.53367  -0.145
+8@73.0a   -1.89803  0.39082  -4.856
+8@73.0d    0.11410  0.52190   0.219
+9@88.1a   -1.21273  0.36937  -3.283
+9@88.1d    1.22425  0.50587   2.420
+
+RFW
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 179 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df       SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2  52.1991 26.099548 4.904819 11.85503 1.245034e-05 1.504475e-05
+Error 176 388.1129  2.205187                                            
+Total 178 440.3120                                                      
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept  2.6248  0.1119 23.450
+1@18.0a   -0.7416  0.1586 -4.676
+1@18.0d   -0.4417  0.2258 -1.956
+
+RDW
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 180 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 + Q2 
+
+       df        SS          MS      LOD    %var Pvalue(Chi2)    Pvalue(F)
+Model   4 0.3458584 0.086464604 8.810729 20.1816 3.291505e-08 5.068732e-08
+Error 175 1.3678728 0.007816416                                           
+Total 179 1.7137313                                                       
+
+
+Drop one QTL at a time ANOVA table: 
+----------------------------------  
+       df Type III SS   LOD  %var F value Pvalue(Chi2) Pvalue(F)    
+1@18.0  2      0.1601 4.325 9.339  10.238            0  6.24e-05 ***
+4@31.7  2      0.1354 3.690 7.903   8.664            0  0.000258 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Estimated effects:
+-----------------
+                est        SE      t
+Intercept  0.183630  0.006732 27.277
+1@18.0a   -0.040223  0.009540 -4.216
+1@18.0d   -0.029528  0.013465 -2.193
+4@31.7a   -0.036424  0.009482 -3.841
+4@31.7d    0.028655  0.013623  2.104
+
+RSR
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 177 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2 0.5262874 0.2631437 7.619255 17.98246 2.402954e-08 3.235083e-08
+Error 174 2.4003828 0.0137953                                            
+Total 176 2.9266702                                                      
+
+
+Estimated effects:
+-----------------
+                est        SE      t
+Intercept  0.257665  0.008877 29.027
+1@22.4a   -0.076948  0.012638 -6.088
+1@22.4d   -0.031962  0.018346 -1.742
+
+RSA
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 181 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2  305352.7 152676.35 4.061835 9.818419 8.672912e-05 0.0001012717
+Error 178 2804646.1  15756.44                                            
+Total 180 3109998.8                                                      
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept 226.499   9.411 24.068
+4@31.7a   -49.269  13.208 -3.730
+4@31.7d    52.416  19.104  2.744
+
+RV
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 181 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)   Pvalue(F)
+Model   2  49.11017 24.555086 4.633861 11.12142 2.323481e-05 2.77296e-05
+Error 178 392.47176  2.204898                                           
+Total 180 441.58193                                                     
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept  2.6220  0.1113 23.552
+4@31.7a   -0.6436  0.1562 -4.119
+4@31.7d    0.6223  0.2260  2.753
+
+SRL
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 180 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 + Q2 
+
+       df        SS       MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   4  23287.73 5821.933 7.674794 17.82788 3.948149e-07 5.734384e-07
+Error 175 107337.65  613.358                                            
+Total 179 130625.38                                                     
+
+
+Drop one QTL at a time ANOVA table: 
+----------------------------------  
+       df Type III SS   LOD  %var F value Pvalue(Chi2) Pvalue(F)    
+1@95.7  2       11800 4.077 9.033   9.619            0  0.000109 ***
+8@92.0  2       12050 4.159 9.225   9.823            0  9.05e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Estimated effects:
+-----------------
+             est     SE      t
+Intercept 91.130  1.890 48.208
+1@95.7a   10.192  2.576  3.957
+1@95.7d   -8.626  3.727 -2.314
+8@92.0a    6.590  2.709  2.433
+8@92.0d   12.106  3.783  3.200
+
+SL
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 180 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 + Q2 
+
+       df       SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   4 1063.250 265.81251 11.10716 24.73604 2.076408e-10 3.600166e-10
+Error 175 3235.134  18.48648                                            
+Total 179 4298.384                                                      
+
+
+Drop one QTL at a time ANOVA table: 
+----------------------------------  
+        df Type III SS   LOD   %var F value Pvalue(Chi2) Pvalue(F)    
+6@19.0   2       320.2 3.689  7.449    8.66            0  0.000259 ***
+11@30.7  2       618.4 6.837 14.388   16.73            0  2.25e-07 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept 17.5898  0.4077 43.141
+6@19.0a    1.8719  0.4553  4.111
+6@19.0d   -0.1613  0.6481 -0.249
+11@30.7a   0.3241  0.6861  0.472
+11@30.7d   3.5647  0.8330  4.279
+
+SFW
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 179 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2  241.2796 120.63980 4.712377 11.41754 1.939204e-05 2.325958e-05
+Error 176 1871.9571  10.63612                                            
+Total 178 2113.2368                                                      
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept  9.8019  0.2443 40.121
+4@6.8a    -1.6082  0.3377 -4.763
+4@6.8d     0.1215  0.4908  0.248
+
+SPAD
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 181 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 + Q2 + Q3 + Q4 
+
+       df       SS       MS    LOD     %var Pvalue(Chi2) Pvalue(F)
+Model   8 1624.994 203.1243 22.903 44.16222            0         0
+Error 172 2054.609  11.9454                                       
+Total 180 3679.603                                                
+
+
+Drop one QTL at a time ANOVA table: 
+----------------------------------  
+        df Type III SS    LOD   %var F value Pvalue(Chi2) Pvalue(F)    
+1@22.4   2       757.0 12.328 20.572   31.68            0  1.93e-12 ***
+1@121.3  2       301.3  5.379  8.190   12.61            0  7.73e-06 ***
+2@72.6   2       316.9  5.638  8.613   13.27            0  4.38e-06 ***
+8@73.0   2       292.9  5.239  7.961   12.26            0  1.05e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Estimated effects:
+-----------------
+              est      SE       t
+Intercept 29.1322  0.2794 104.266
+1@22.4a   -2.6087  0.3760  -6.937
+1@22.4d    1.5904  0.5430   2.929
+1@121.3a  -1.9132  0.3812  -5.019
+1@121.3d   0.2692  0.5261   0.512
+2@72.6a   -1.9279  0.4070  -4.737
+2@72.6d   -0.3427  0.5514  -0.622
+8@73.0a   -1.9923  0.4058  -4.910
+8@73.0d    0.3015  0.5413   0.557
+
+RFW
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 179 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df       SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2  52.1991 26.099548 4.904819 11.85503 1.245034e-05 1.504475e-05
+Error 176 388.1129  2.205187                                            
+Total 178 440.3120                                                      
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept  2.6248  0.1119 23.450
+1@18.0a   -0.7416  0.1586 -4.676
+1@18.0d   -0.4417  0.2258 -1.956
+
+RDW
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 180 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS          MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2 0.2104196 0.105209803 5.120433 12.27845 7.578225e-06 9.223761e-06
+Error 177 1.5033117 0.008493286                                            
+Total 179 1.7137313                                                        
+
+
+Estimated effects:
+-----------------
+                est        SE      t
+Intercept  0.187273  0.006934 27.009
+1@18.0a   -0.046839  0.009805 -4.777
+1@18.0d   -0.028692  0.013987 -2.051
+
+RSR
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 177 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2 0.5262874 0.2631437 7.619255 17.98246 2.402954e-08 3.235083e-08
+Error 174 2.4003828 0.0137953                                            
+Total 176 2.9266702                                                      
+
+
+Estimated effects:
+-----------------
+                est        SE      t
+Intercept  0.257665  0.008877 29.027
+1@22.4a   -0.076948  0.012638 -6.088
+1@22.4d   -0.031962  0.018346 -1.742
+
+RSA
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 181 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   2  305352.7 152676.35 4.061835 9.818419 8.672912e-05 0.0001012717
+Error 178 2804646.1  15756.44                                            
+Total 180 3109998.8                                                      
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept 226.499   9.411 24.068
+4@31.7a   -49.269  13.208 -3.730
+4@31.7d    52.416  19.104  2.744
+
+RV
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 181 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 
+
+       df        SS        MS      LOD     %var Pvalue(Chi2)   Pvalue(F)
+Model   2  49.11017 24.555086 4.633861 11.12142 2.323481e-05 2.77296e-05
+Error 178 392.47176  2.204898                                           
+Total 180 441.58193                                                     
+
+
+Estimated effects:
+-----------------
+              est      SE      t
+Intercept  2.6220  0.1113 23.552
+4@31.7a   -0.6436  0.1562 -4.119
+4@31.7d    0.6223  0.2260  2.753
+
+SRL
+
+		fitqtl summary
+
+Method: Haley-Knott regression 
+Model:  normal phenotype
+Number of observations : 180 
+
+Full model result
+----------------------------------  
+Model formula: y ~ Q1 + Q2 
+
+       df        SS       MS      LOD     %var Pvalue(Chi2)    Pvalue(F)
+Model   4  23287.73 5821.933 7.674794 17.82788 3.948149e-07 5.734384e-07
+Error 175 107337.65  613.358                                            
+Total 179 130625.38                                                     
+
+
+Drop one QTL at a time ANOVA table: 
+----------------------------------  
+       df Type III SS   LOD  %var F value Pvalue(Chi2) Pvalue(F)    
+1@95.7  2       11800 4.077 9.033   9.619            0  0.000109 ***
+8@92.0  2       12050 4.159 9.225   9.823            0  9.05e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+
+Estimated effects:
+-----------------
+             est     SE      t
+Intercept 91.130  1.890 48.208
+1@95.7a   10.192  2.576  3.957
+1@95.7d   -8.626  3.727 -2.314
+8@92.0a    6.590  2.709  2.433
+8@92.0d   12.106  3.783  3.200
+
